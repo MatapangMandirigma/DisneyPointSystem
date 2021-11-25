@@ -18,6 +18,13 @@ document.getElementById("submitButton").addEventListener("click", function(){
     textUpdate();
 });
 
+document.getElementById("resetButton").addEventListener("click", function(){
+    thirtyDayPoints = 2.5;
+    ninetyDayPoints = 5.5;
+    oneEightyDayPoints = 8.5;
+    textUpdate();
+});
+
 function pointUpdate(){
     //30 day check
     if(pointDate.getTime() >= thirtyDayDate.getTime() && pointDate.getTime() <= todaysDate.getTime()){
