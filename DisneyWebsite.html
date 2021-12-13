@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="background-color:lightcyan">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <Title>Disney Points Website</Title>
+        <Title>Disney Point System Calculator</Title>
         <link rel="stylesheet" href="main.css">
     </head>
-    <body>
+    <body id="body">
+        <div class="header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Disney_wordmark.svg" width="200" height="150">
+        </div>
         <div class="center">
-            <h1>Disney Point Website</h1>
+            <h1>Point System Calculator</h1>
             <input type="text" placeholder="YYYY/MM/DD" id="date">
             <br><br>
             <input type="number" placeholder="0.0" step="0.1" id="value">
@@ -22,7 +25,11 @@
             <p id="90DayText"></p>
             <p id="180DayText"></p>
             <p id="date-time"></p>
+            
+        </div>
+        <div class="footer">
             <h6>Written By Brandon Angeles</h6>
         </div>
     </body>
+    <table id="table"></table>
 </html>
